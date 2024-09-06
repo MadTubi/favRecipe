@@ -1,0 +1,41 @@
+/*index.html*/
+body{
+    background-color: #f0ead2;
+}
+.parent {
+    border: 1px solid black;
+    margin: 1rem;
+    padding: 2rem 2rem;
+    text-align: center;
+    background-color: #adc178;
+}
+.child {
+    display: inline-block;
+    border: 1px solid #6c584c;
+    padding: 1rem 1rem;
+    vertical-align: middle;
+    background-color: #a98467;
+    color:white;
+}
+
+a{
+    color: white;
+}
+
+footer{
+    text-align: center;
+}
+
+/*recipe.html*/
+.parent ul{
+    text-align: left;
+}
+
+.child ol{
+    text-align: left;
+}
+
+/*vegRecipe.html*/
+#over_left{
+    float: left;
+}
